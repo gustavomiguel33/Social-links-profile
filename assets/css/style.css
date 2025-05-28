@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
@@ -45,18 +47,28 @@
     font-weight: 300;
   }
   .container .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
   }
   .container .main ul {
     width: 100%;
+    padding: 0;
   }
   .container .main ul li {
+    width: 100%;
     list-style: none;
     display: block;
-    background-color: #CCC;
+    background-color: #FFF;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  .container .main ul li a {
+    text-decoration: none;
+    color: #141414;
+    cursor: pointer;
     width: 100%;
+    display: block;
   }
   .container .main ul li a i {
     margin-right: 1rem;
