@@ -67,13 +67,15 @@
       ul {
         width: 100%;
         li {
+          list-style: none;
           display: block;
-
+          background-color: #CCC;
+          width: 100%; 
           a {
-            width: 100%;
-  
-            list-style: none;
-            background-color: #CCC;
+
+            i {
+              margin-right: 1rem;
+            }
 
           }
         }
