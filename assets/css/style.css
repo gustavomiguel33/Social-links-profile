@@ -51,16 +51,17 @@
     margin: 0 auto;
   }
   .container .main ul {
-    width: 100%;
+    width: 90%;
     padding: 0;
+    margin: 0 auto;
   }
   .container .main ul li {
     width: 100%;
     list-style: none;
     display: block;
     background-color: #FFF;
-    margin: 1rem auto;
-    padding: 0.5rem;
+    margin: 1rem 0;
+    padding: 0.5rem 0 0.5rem 1rem;
     border-radius: 1rem;
   }
   .container .main ul li a {
