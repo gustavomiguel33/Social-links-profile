@@ -15,10 +15,10 @@
     background-color: #141414;
   }
   .container {
-    width: 90%;
+    max-width: 70%;
     background-color: #1F1F1F;
     color: #FFF;
-    padding: 2rem 0;
+    padding: 3rem 0;
     border-radius: 1rem;
   }
   .container .header img {
@@ -48,7 +48,7 @@
   }
   .container .main {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
   .container .main ul {
     width: 90%;
@@ -65,11 +65,12 @@
     border-radius: 1rem;
   }
   .container .main ul li a {
+    width: 100%;
+    display: block;
     text-decoration: none;
     color: #141414;
     cursor: pointer;
-    width: 100%;
-    display: block;
+    font-size: 0.8rem;
   }
   .container .main ul li a i {
     margin-right: 1rem;
