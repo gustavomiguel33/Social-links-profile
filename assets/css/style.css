@@ -20,6 +20,7 @@ body {
 
 @media (max-width: 576px) {
   .container {
+    margin: 2rem 0;
     width: 350px;
     background-color: #1F1F1F;
     color: #FFF;
@@ -83,6 +84,71 @@ body {
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .container {
+    margin: 2rem 0;
+    width: 350px;
+    background-color: #1F1F1F;
+    color: #FFF;
+    padding: 3rem 0;
+    border-radius: 1rem;
+  }
+  .container .header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.5rem auto;
+  }
+  .container .header .text-center {
+    text-align: center;
+  }
+  .container .header h1 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+  }
+  .container .header span {
+    display: block;
+    margin-bottom: 1rem;
+    color: rgb(224, 253, 119);
+  }
+  .container .header p {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .container .main {
+    max-width: 70%;
+    margin: 2rem auto;
+  }
+  .container .main ul {
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .container .main ul li {
+    width: 100%;
+    list-style: none;
+    display: block;
+    background-color: #FFF;
+    margin: 1rem 0;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+  .container .main ul li a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #141414;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  .container .main ul li a i {
+    margin-right: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1400px) {
+  .container {
+    margin: 2rem 0;
     width: 350px;
     background-color: #1F1F1F;
     color: #FFF;
